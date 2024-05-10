@@ -23,7 +23,7 @@ To make this website, I used ReactJS with the TypeScript language. I also used t
 
 ### Visit the website:
 
-Just go to <a href="https://maxencebonamy.fr">maxencebonamy.fr"</a>.
+Just go to <a href="https://maxencebonamy.fr">maxencebonamy.fr</a>.
 
 ### Run the code:
 
