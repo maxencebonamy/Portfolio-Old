@@ -20,9 +20,8 @@ const Button = ({ children, className, height, text, link, textTransition, lang 
             style={{height: height}}
             className={cn(
                 className ?? "",
-                "flex flex-row items-center justify-evenly gap-2 px-2 py-0 group cursor-pointer",
+                "flex flex-row items-center justify-evenly gap-2 px-4 py-0 group cursor-pointer",
                 "border-dark dark:border-light rounded-full border-2 transition-colors duration-500",
-    
             )}
             lang={lang}
         >

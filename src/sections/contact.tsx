@@ -5,6 +5,7 @@ import Button from "../components/button"
 import { Github, Instagram, Linkedin, Mail } from "lucide-react"
 import Logo from "../components/svg/logo"
 import Blob from "../components/blob"
+import Malt from "../components/svg/malt"
 
 interface ContactProps {
     lang: "fr" | "en"
@@ -46,8 +47,8 @@ const Contact = ({ lang, appRef }: ContactProps) => {
                         <Button height="2.5rem" text="GitHub" link="https://github.com/maxencebonamy">
                             <Github className="text-dark dark:text-light transition-all duration-500 h-full" />
                         </Button>
-                        <Button height="2.5rem" text="Instagram" link="https://instagram.com/maxencebonamy">
-                            <Instagram className="text-dark dark:text-light transition-all duration-500 h-full" />
+                        <Button height="2.5rem" text="Malt" link="https://www.malt.fr/profile/maxencebonamy">
+                            <Malt className="stroke-light stroke-[20] transition-all duration-500 h-full py-[0.4rem]" />
                         </Button>
                     </div>
                 </div>
